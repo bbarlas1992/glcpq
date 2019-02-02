@@ -41,6 +41,14 @@
   box-sizing: border-box;
 }
 
+#tel{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 #picture{
   text-align: Center;
   display: block;
