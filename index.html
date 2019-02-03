@@ -65,7 +65,12 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-				<form id="contact-form">
+
+				<script type="text/javascript">var submitted=false;</script>
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='www.glcpq.com';}"></iframe>
+				
+				<form id="contact-form" action ="https://docs.google.com/forms/d/e/1FAIpQLSdEszkXaTAKC9sbtPiFm20_qjYb6rQf6Ql0BQOu2PcQZ2oRiA/formResponse?embedded=true"  method="post" target="hidden_iframe" 
+				onsubmit="submitted=true;">
 
 						<div class="messages"></div>
 					
@@ -74,13 +79,13 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname" required="required" data-error="Firstname is required.">
+										<input id="form_name" type="text" name="entry.150285851" class="form-control" placeholder="First Name*" required="required" data-error="Firstname is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Last Name" required="required" data-error="Lastname is required.">
+										<input id="form_lastname" type="text" name="entry.556681891" class="form-control" placeholder="Last Name*" required="required" data-error="Lastname is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
@@ -88,22 +93,22 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input id="form_email" type="email" name="email" class="form-control" placeholder="Email" required="required" data-error="Valid email is required.">
+										<input id="form_email" type="email" name="entry.1707913633" class="form-control" placeholder="Email*" required="required" data-error="Valid email is required.">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
 								<div class="col-md-6">
 										<div class="form-group">
-												<input id="form_company" type="text" name="company" class="form-control" placeholder="Company" required="required" data-error="Company is required.">
+												<input id="form_company" type="text" name="entry.1994590986" class="form-control" placeholder="Company*" required="required" data-error="Company is required.">
 												<div class="help-block with-errors"></div>
 										</div>
 								</div>
 							</div>
-							
+
 							<div class="row">
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea id="form_message" name="message" class="form-control" placeholder="Tell us about yourself" rows="4"></textarea>
+										<textarea id="form_message" name="entry.1994590986" class="form-control" placeholder="Tell us about yourself" rows="4"></textarea>
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
