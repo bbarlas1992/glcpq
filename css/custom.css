@@ -41,6 +41,9 @@
   box-sizing: border-box;
 }
 
+#globalFonts{
+  font-family: "abeezee"
+}
 
 #tel{
   margin-left: auto;
@@ -53,9 +56,9 @@
 }
 
 #bar2{
-background-color: #edeaea
-}
-
+  background-color: #edeaea;
+  color:#092f6a;
+  }
 
 #picture{
   text-align: Center;
@@ -72,6 +75,12 @@ background-color: #edeaea
   margin-right: auto;
 }
 
+#demobtn{
+  background-color: #B10E13;
+  color:#ffff;
+  border-radius: 4px;
+}
+
 #pageTitle{
   margin: 10;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -81,6 +90,13 @@ background-color: #edeaea
   color: #212529;
   text-align: Center;
 
+}
+
+#reasons{
+  border-style: none;
+  text-align: center;
+  border-radius: 0px;
+  color:#fff;
 }
 
 .bar5 {
@@ -288,6 +304,7 @@ label {
 
 button {
   border-radius: 0;
+
 }
 
 button:focus {
@@ -4495,7 +4512,8 @@ tbody.collapse.show {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0px;
+  height: 250px;
 }
 
 .card > hr {
@@ -4518,6 +4536,9 @@ tbody.collapse.show {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+  background-color:#3a87c6;
+  border-style: none;
+  font-size: 90%;
 }
 
 .card-title {
@@ -4544,8 +4565,10 @@ tbody.collapse.show {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color:#3a87c6;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-style: none;
+  font-size: 120%;
 }
 
 .card-header:first-child {
