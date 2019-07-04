@@ -33,6 +33,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-muli: Muli, sans-serif;
 }
 
 *,
@@ -42,7 +43,7 @@
 }
 
 #globalFonts{
-  font-family: "muli"
+  font-family: 'Muli', sans-serif;
 }
 
 #tel{
@@ -123,7 +124,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: muli;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
